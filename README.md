@@ -1,2 +1,2 @@
 # Shooting-Range
-#Assets -> Let's Try Shooter -> Scenes -> Completed Scenes -> RayCastShootComplete
+# Assets -> Let's Try Shooter -> Scenes -> Completed Scenes -> RayCastShootComplete
