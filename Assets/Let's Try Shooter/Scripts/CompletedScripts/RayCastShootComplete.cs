@@ -8,6 +8,7 @@ public class RayCastShootComplete : MonoBehaviour {
 	public float weaponRange = 50f;										// Distance in Unity units over which the player can fire
 	public float hitForce = 100f;										// Amount of force which will be added to objects with a rigidbody shot by the player
 	public Transform gunEnd;											// Holds a reference to the gun end object, marking the muzzle location of the gun
+    public float LimitShot = 3;
 
 	private Camera fpsCam;												// Holds a reference to the first person camera
 	private WaitForSeconds shotDuration = new WaitForSeconds(0.07f);	// WaitForSeconds object used by our ShotEffect coroutine, determines time laser line will remain visible
@@ -32,7 +33,7 @@ public class RayCastShootComplete : MonoBehaviour {
 	void Update () 
 	{
 		// Check if the player has pressed the fire button and if enough time has elapsed since they last fired
-		if (Input.GetButtonDown("Fire1") && Time.time > nextFire && counter < 3) 
+		if (Input.GetButtonDown("Fire1") && Time.time > nextFire && counter < LimitShot) 
 		{
 			// Update the time when our player can fire next
 			nextFire = Time.time + fireRate;
