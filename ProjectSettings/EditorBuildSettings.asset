@@ -4,4 +4,7 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Let's Try Shooter/Scenes/CompletedScenes/RayCastShootComplete.unity
+    guid: d967eb1fce7392f419ba31a825a5c4fb
