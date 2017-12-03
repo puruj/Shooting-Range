@@ -128,10 +128,6 @@
       <Project>{3D4EB355-8C3B-682D-4E3A-E5A1AD5139A8}</Project>
       <Name>Shooting-Range</Name>
     </ProjectReference>
-    <ProjectReference Include="Shooting-Range.unityproj">
-      <Project>{3D4EB355-8C3B-682D-4E3A-E5A1AD5139A8}</Project>
-      <Name>Shooting-Range</Name>
-    </ProjectReference>
     <ProjectReference Include="Shooting-Range.Editor.Plugins.csproj">
       <Project>{90047740-EE22-A565-C0EF-F226796555F1}</Project>
       <Name>Shooting-Range.Editor.Plugins</Name>

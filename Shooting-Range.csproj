@@ -87,6 +87,7 @@
     <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\fivePoints.cs" />
     <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\fourPoints.cs" />
     <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\Missed.cs" />
+    <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\PrinttoText.cs" />
     <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\RayCastShootComplete.cs" />
     <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\RayViewerComplete.cs" />
     <Compile Include="Assets\Let&apos;s Try Shooter\Scripts\CompletedScripts\ShootableBox.cs" />
